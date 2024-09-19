@@ -1,0 +1,60 @@
+.signupMain{
+    text-align: center;
+    background-color: rgb(151, 151, 151);
+}
+.signup{
+    text-align: start;
+    margin: 0 25% 0 25%;
+    /* width: 580px; */
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 7px;
+}
+label{
+    font-size: large;
+    font-size: 20px;
+}
+:placeholder-shown{
+    font-size: small;
+}
+
+input{
+    height: 40px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.addAdmin-btn{
+    margin-left: 35%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(30, 183, 30);
+    color: white;
+    padding:  10px 20px;
+}
+
+.deleteModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.deleteModal input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.deleteModal button {
+    margin-right: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
